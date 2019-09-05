@@ -12,10 +12,6 @@ public class Main {
         String b = in.next();
         String c = in.next();
 
-        if (a >= b && a >= c) System.out.println(a);
-        if (b >= a && b >= c) System.out.println(b);
-        if (c >= a && c >= b) System.out.println(c);
-
      out.flush();
     }
 }

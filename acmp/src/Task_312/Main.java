@@ -9,13 +9,10 @@ public class Main {
         int a = in.nextInt();
         int b = in.nextInt();
         int c = in.nextInt();
-        int[] d = new int[c];
+        int d = b - a;
+        int s;
 
-        for (int i = 1; i <= c; i++) {
-           d[i] = a + ((i - 1) * (b - c));
-            if (i == c) {
-                System.out.println(d);
-            }
-        }
+        s = a + d*(c-1);
+        System.out.println(s);
     }
 }
